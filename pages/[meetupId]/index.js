@@ -1,5 +1,11 @@
+import MeetupDetails from "@/components/meetups/MeetupDetails";
+
 function MeetupDetailsPage() {
-    return <div>MeetupDetailsPage</div>;
+    return (
+      <div>
+        <MeetupDetails  title="first meetup" address="street address 5" description="description of meetup" />
+      </div>
+    );
 }
 
 export default MeetupDetailsPage
