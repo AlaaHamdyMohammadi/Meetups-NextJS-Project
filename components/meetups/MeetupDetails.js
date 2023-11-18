@@ -11,4 +11,6 @@ function MeetupDetails({image, title, address, description}) {
     );
 }
 
+
+
 export default MeetupDetails
